@@ -1,0 +1,13 @@
+.imageBlock {
+  position: relative;
+  width: 100%;
+  padding: 34px 45px 23px 52px;
+}
+.logo {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 88px;
+  height: 26px;
+  opacity: 0.3;
+}

@@ -1,0 +1,43 @@
+:root {
+  --main-color: #ebd8ff;
+  --gradient: linear-gradient(
+    114.99deg,
+    #471ca9 -0.99%,
+    #5736a3 54.28%,
+    #4b2a99 78.99%
+  );
+  --btn-active-bg-color: #5cd3a8;
+  --btn-text-color: #373737;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), local('Montserrat'),
+    url('../fonts/Montserrat-Medium.ttf') format('truetype'),
+    url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: medium, bold;
+  font-style: normal;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}

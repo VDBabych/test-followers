@@ -1,0 +1,42 @@
+.followBlock {
+  padding: 74px 10px 48px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  line-height: calc(29 / 24);
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.tweets {
+  composes: text;
+  margin-bottom: 20px;
+}
+.followers {
+  composes: text;
+  margin-bottom: 32px;
+}
+
+.followBtn {
+  width: 226px;
+  height: 56px;
+  background: var(--main-color);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-transform: uppercase;
+}
+
+.followBtnActive {
+  composes: followBtn;
+  background-color: var(--btn-active-bg-color);
+}
