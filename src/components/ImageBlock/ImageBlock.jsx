@@ -5,8 +5,8 @@ import css from './ImageBlock.module.css';
 export const ImageBlock = () => {
   return (
     <div className={css.imageBlock}>
-      <img className={css.logo} src={logo} alt="" />
-      <img className={css.image} src={background} alt="" />
+      <img className={css.logo} src={logo} alt="logo" />
+      <img className={css.image} src={background} alt="sign" />
     </div>
   );
 };
